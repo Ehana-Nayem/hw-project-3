@@ -1,0 +1,221 @@
+body {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.header {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 5px;
+}
+
+.container {
+    max-width: 95%;
+    flex-basis: 90%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 35px;
+}
+
+.logo {
+    max-width: 40%;
+    flex-basis: 40%;
+    margin-top: -15px;
+}
+
+.logo a  { text-decoration: none;}
+.logo a h2{font-size: 41px;color: #4db134;}
+.menu {
+    max-width: 60%;
+    flex-basis: 60%;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.menu ul li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: large;
+    color: black;
+    padding: 7px
+}
+
+.menu ul li:hover a {
+    color: red;
+    background: blue;
+    border-radius: 10px;
+    color: white;
+}
+
+.content {
+    margin-top: 270px;
+    max-width: 30%;
+    flex-basis: 30%;
+}
+
+.content h1 {
+    font-size: 37px;
+    padding-bottom: 30px;
+}
+
+.content p {
+    text-align: justify;
+    color: #91b5b0;
+    margin-bottom: 60px;
+}
+
+.button {
+    height: 50px;
+    width: 165px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #7b7bd0;
+    color: white;
+}
+
+
+.page {
+    background-image: url(../images/bg1.png);
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+.container-2 {
+    max-width: 72%;
+    flex-basis: 72%;
+    margin: auto;
+}
+
+.con-tow {
+    padding-top: 230px;
+    max-width: 32%;
+    flex-basis: 32%;
+}
+
+.con-tow h1 {
+    font-size: 65px;
+}
+
+.con-tow h2 {
+    font-size: 68px;
+    color: #3FA9F5;
+}
+
+.con-tow h4 {
+    font-size: 26px;
+    font-family: monospace;
+    color: #404e69;
+}
+
+.con-tow p {
+    text-align: left;
+    color: #A5AAC7;
+    font-size: small;
+}
+
+.learn-more {
+    margin-top: 30px;
+    width: 180px;
+    height: 45px;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 20px;
+    border: 2px solid #1A2545;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+.learn-more:hover {
+    color: #e3fbfd;
+    background-color: #de4a4a;}
+
+.footer{
+    background-color: #e9ecf3;
+    margin-top: 1px;
+    padding-bottom: 20px;
+    border: 2px solid;
+}
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer-row{
+    display: flex;
+    padding-top: 30px;
+}
+.Terms{
+    max-width: 40%;
+    flex-basis: 40%;
+}
+.Terms ul {
+    font-family: sans-serif;
+    max-width: 80%;
+    flex-basis: 80%;
+    margin-left: 65px;
+    display: flex;
+}
+.Terms ul li {
+    list-style-type: none;
+}
+.Terms ul li a{margin-right: 15px;color: black;}
+.follow{
+    max-width: 60%;
+    flex-basis: 60%;
+}
+.follow ul{display:flex;justify-content: flex-end;}
+.follow ul li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+.follow ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.follow ul li:hover a{color:darkcyan}
+
+.Copyright{color: #ababab;
+    font-size: 12px;text-align: center;margin-top: 20px;}
